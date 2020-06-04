@@ -2,12 +2,12 @@ import subprocess
 
 req = {
     "python", "tqdm", "nb_conda_kernels", "pip", "ipython", "numpy", "scipy", "pandas", 
-    "scikit-learn", "matplotlib", "seaborn", "ipywidgets", "nltk", 
-    "xgboost", "scikit-optimize", "jcopml", "luwiji", "pillow"
+    "scikit-learn", "matplotlib", "ipywidgets", "nltk", "xgboost", "scikit-optimize", 
+    "jcopml", "luwiji", "pillow"
 }
-env_name = "jcopml"
+env_name = "jcop_ud"
 working_folder = "unstructured_data"
-env_file = "env_jcopml.yml"
+env_file = "env_jcop_ud.yml"
 
 
 def existing_env():
