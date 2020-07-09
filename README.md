@@ -64,9 +64,9 @@ Note: Apabila sudah memiliki environment jcopml seperti di [Course 1 - 3](https:
     ```
     cd unstructured_data/
     ```
-- Jalankan command ini untuk menginstall environment `jcopml`
+- Jalankan command ini untuk menginstall environment `jcop_ud`
     ```
-    conda env create -f env_jcopml.yml
+    conda env create -f env_jcop_ud.yml
     ```
 
 ## Step 5: Memastikan environment terinstall dengan baik
